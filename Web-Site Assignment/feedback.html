@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Feedback</title>
+    <style>
+        h2 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        form {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content:center;
+            margin: 0 50px;
+        }
+        input[type="text"], input[type="email"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        input[type="submit"] {
+            width: 20%;
+            padding: 10px;
+            background-color: lightblue;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+        .intror{
+            background-color: #090909;
+            box-shadow: 2px 2px 10px gray;
+            text-align: center;
+            color: #fff;
+        }
+        h1{
+            text-align: center;
+        }
+        .intro{
+            background-color: #86A3B8;
+            margin: 2%;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px gray;
+            padding: 5%;
+        }
+        .btn{
+            height: 50px;
+            width: 150px;
+        }
+        form {
+            width: 50%;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid gray;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px gray;
+            text-align: center;
+          }
+          label, input[type="submit"], input[type="reset"] {
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            font-size: 16px;
+            text-align: left;
+          }
+          input[type="text"], input[type="email"], input[type="tel"], textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid gray;
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-size: 16px;
+            margin-bottom: 20px;
+          }
+          textarea {
+            resize: none;
+          }
+          fieldset {
+            border: 1px solid gray;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+            text-align: left;
+          }
+          legend {
+            width: auto;
+            padding: 0 10px;
+            margin-left: 20px;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: left;
+          }
+          input[type="submit"], input[type="reset"] {
+            background-color: green;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 45%;
+            margin: 20px;
+          }
+          form{
+            background-color: #FAEEE7;
+            margin-bottom: 3%;
+          }
+    </style>
+  </head>
+  <body>
+    <section>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html"><h1>HMF</h1></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse lis" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="product.html">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="feedback.html"><h1>Feedback</h1></a>
+                </li>
+            </ul>
+            </div>
+        </nav>
+    </section>
+        <h1 style="text-align:center;">Feedback Form</h1>
+        <form>
+          <fieldset>
+            <legend>Personal Information:</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="number">Contact Number:</label>
+            <input type="tel" id="number" name="number"><br><br>
+          </fieldset>
+          <fieldset>
+            <legend>Feedback:</legend>
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required><br><br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" cols="30" required></textarea><br><br>
+            <label for="rating">Rating:</label>
+            <input type="radio" id="rating1" name="rating" value="1" required>1
+            <input type="radio" id="rating" name="rating" value="2">2
+            <input type="radio" id="rating" name="rating" value="3">3
+    
+            <input type="radio" id="rating" name="rating" value="4">4
+            <input type="radio" id="rating" name="rating" value="5">5<br><br>
+          </fieldset><br>
+          <input type="submit" value="Submit">
+          <input type="reset" value="Reset">
+        </form>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="about.js"></script>
+  </body>
+  <footer>
+    <div class="intror">
+        <h4>Home-Made Factory™ Copyrigts© 2023.</h4>
+    </div>
+</footer>
+</html>

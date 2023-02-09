@@ -1,0 +1,53 @@
+.left-side{
+    width: 30%;
+    background-color: #3C4048;
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+}
+.hrs{
+    width:70%;
+    
+}
+.start-div{
+    background-color: #86E5FF;
+    color: #3C4048;
+    padding: 10% 20%;
+}
+.img-div{
+    text-align: center;
+}
+.name-div{
+    text-align: center;
+}
+.profile-pic{
+    width: 170px;
+    height: 170px;
+}
+.contact{
+    padding-top: 5%;
+}
+.right-side{
+    background-color: blue;
+}
+.call{
+    padding-bottom: 10%;
+}
+.words{
+    padding: 20%;
+}
+.certi{
+    padding-left: 20%;
+}
+.right-side{
+    vertical-align: top;
+    background-color: #FAF7F0;
+    color: #000;
+}
+.discrib{
+    padding: 0%;
+}
+.hre{
+    width: 90%;
+    height: 4px;
+    background: black;
+}

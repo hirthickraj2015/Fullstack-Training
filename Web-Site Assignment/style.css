@@ -1,0 +1,93 @@
+
+h3,.lis{
+    font-family: Gill Sans, Verdana;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+h2 {
+    font-family: times, Times New Roman, times-roman, georgia, serif;
+    color: #444;
+    padding: 0px 0px 6px 0px;
+    font-size: 2.5rem;
+    line-height: 44px;
+    letter-spacing: -2px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 2%;
+}
+.awards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.intror{
+    background-color: #090909;
+    box-shadow: 2px 2px 10px gray;
+    text-align: center;
+    color: #fff;
+}
+.award {
+    width: 30%;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #2B3A55;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px gray;
+}
+.award-img {
+    width: 350px;
+    height: 350px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+.news {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 40px 0;
+    line-height: 1.5;
+}
+a {
+display: block;
+text-align: center;
+font-size: 1.2em;
+margin-top: 20px;
+text-decoration: none;
+color: blue;
+}
+.brand-div{
+    text-align:center;
+    background:#678983;
+}
+.marg{
+    padding-bottom: 2%;
+}
+.brand{
+    text-transform:uppercase;
+    font-size:72px;
+    font-family:'Verdana';
+    padding:30px;
+}
+.start-img{
+    margin-top: 5%;
+    height: 70%;
+    width: 70%;
+}
+.start-p{
+    font-family: 'Holtwood One SC', serif;
+    font-size: 1.2rem;
+}
+.news-div{
+    background:#678983;
+}
+.dai-div{
+    text-align: center;
+}
+.marg{
+    margin: 3%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px gray;
+}

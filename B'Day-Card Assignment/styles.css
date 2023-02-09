@@ -1,0 +1,60 @@
+ body{
+  background-color: #181D31;
+} 
+.imgbro{
+  width: 70%;
+  height: 50%;
+  padding: 2%;
+  transition: all 1s;
+}
+.imgcol{
+  justify-content: center; 
+  margin-left: 4%;
+  margin-top: 4%;
+  background-color: #678983;
+  text-align: center;
+  color: #F0E9D2;
+  font-family: 'Homemade Apple', cursive;
+  font-size: 5rem;
+  border-radius: 3%;
+  transition: all 1.5s;
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+.imgbro:hover{
+  transform: scale(1.2);
+}
+.name{
+  transition: all 1s;
+}
+.name:hover{
+  transform: scale(1.2);
+}
+.wordsd{
+  margin-top: 4%;
+  color: #F0E9D2;
+}
+.square1 {
+  background: #00aa9d;
+  border-radius: 3px;
+  position: absolute;
+  transition: transform 0.8s;
+  width: 617px;
+  height: 861px;
+  margin-left: 2%;
+  border-radius: 3%;
+}
+
+.square2 {
+  background: #393E46;
+  border-radius: 3px;
+  transition: transform 0.8s;
+  position: absolute;
+  padding: 2%;
+  border-radius: 3%;
+  font-size: 1.238rem;
+  margin-left: 2%;
+  
+}
+.square2:hover{
+  transform: translate(20px, 20px);
+}
